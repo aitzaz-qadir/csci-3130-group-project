@@ -1,6 +1,6 @@
 {
 	"name": "CSCI-3130 Project",
-	"description": "Build an Extension!",
+	"description": "Build an Extension that downloads media from a website.",
 	"version": "0.1",
 	"manifest_version": 3,
 	"background": {
@@ -15,5 +15,13 @@
 		"default_icon": {
 			"128":"icons/puzzle.png"
 		}
-	}
+	},
+	"content_scripts" : [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["content.js"]
+		}
+	]
 }
