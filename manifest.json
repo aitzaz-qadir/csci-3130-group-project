@@ -1,0 +1,16 @@
+{
+	"name": "CSCI-3130 Project",
+	"description": "Build an Extension!",
+	"version": "0.1",
+	"manifest_version": 3,
+	"background": {
+		"service worker" : "background.js"
+	},
+	"icons": {
+		"128": "icons/puzzle.png"
+	},
+	"permissions": ["storage"],
+	"action": {
+		"default_popup": "popup.html"
+	}
+}
