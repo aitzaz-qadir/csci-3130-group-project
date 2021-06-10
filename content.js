@@ -5,6 +5,7 @@ var links = document.getElementsByTagName("embed")
 console.log("Hey this is my output;")
 console.log(vid_find())
 
+
 function vid_find() {
 	var vids = document.getElementsByTagName("video");
 	var vidSrcs = [];
