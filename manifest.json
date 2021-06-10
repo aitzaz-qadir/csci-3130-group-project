@@ -3,9 +3,6 @@
 	"description": "Build an Extension that downloads media from a website.",
 	"version": "0.1",
 	"manifest_version": 3,
-	"background": {
-		"service worker" : "background.js"
-	},
 	"icons": {
 		"128": "icons/puzzle.png"
 	},
