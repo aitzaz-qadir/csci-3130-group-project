@@ -1,0 +1,11 @@
+/* Default styles being applied to website */
+/* Order of CSS reorganized according to order of occurence in HTML */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
+#container {
+    border: 2px solid red;
+}
