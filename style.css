@@ -3,7 +3,7 @@
 
 * {
 	font-family: 'Open Sans', sans-serif;
-	background-color: antiquewhite;
+	background-color: lightblue;
 }
 
 #container {
@@ -14,4 +14,10 @@
 .base-layer {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#logo {
+	margin-right: 10px;
+	vertical-align: middle;
 }
