@@ -1,0 +1,62 @@
+/* Allens main.css */
+h3 {
+	border: black solid 1px;
+	display: -webkit-flex;
+	display: inline-flex;
+}
+
+#Setting {
+	display: flex;
+}
+
+.li {
+	display: inline-block;
+}
+
+.popup {
+	width: 60px;
+	float: right;
+	margin-top: -20px;
+}
+
+.siderbar {
+	width: 60px;
+	float: right;
+	margin-top: -20px;
+}
+
+.day {
+	width: 60px;
+	float: right;
+	margin-top: -20px;
+}
+
+.dark {
+	width: 60px;
+	float: right;
+	margin-top: -20px;
+}
+
+#Popup {
+	border: white solid 1px;
+	display: left;
+	align-items: center;
+}
+
+#Siderbar {
+	border:white solid 1px;
+	display: left;
+	align-items: center;
+}
+
+#Day {
+	border: white solid 1px;
+	display: left;
+	align-items: center;
+}
+
+#Dark {
+	border: white solid 1px;
+	display: left;
+	align-items: center;
+}
