@@ -2,12 +2,11 @@
 
 * {
 	font-family: 'Open Sans', sans-serif;
-	background-color: lightblue;
-	width: 500px;
+	width: 400px;
 }
 
-.photo {
-	width: 80px;
+.logo {
+	width: 128px;
 }
 
 .photo2 {
