@@ -27,21 +27,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#header .setting-btn {
-    width: 8rem;
-    height: 1.1rem;
-    border: 1px solid #fff;
-    background-color: transparent;
-    border-radius: 1rem;
-    outline: none;
-    font-family: 'Lato Bold', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 0;
-    transition: all .2s ease-in-out;
-    color: #4c4952;
-}
+.btn{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}    
+
 h2 {
     display: block;
     font-size: 1.5em;
