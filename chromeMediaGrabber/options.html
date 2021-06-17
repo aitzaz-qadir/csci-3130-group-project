@@ -1,13 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<link rel="stylesheet" href="button.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="main.css">
+		<title>Setting page</title>
 	</head>
 	<body>
-		<div id="buttonDiv"></div>
-		<div>
-			<p>Choose a different background color!</p>
-		</div>
+		<header id="header">
+			<div id="Setting">
+				<img class="setting"style="width: 60px;" src="./setting.png" alt="picture">
+				<h2>Settings</h2>
+			</div>
+			<ul>
+				<h3>Layout</h3>
+				<ul>
+					<section id="Popup">
+						<li>Pop-up mode</li>
+						<img class="popup" style="width: 30px;" src="./popup.jpeg">
+					</section>
+					<br>
+					<section id="Siderbar">
+						<li>Siderbar mode</li>
+						<img class="siderbar" style="width: 30px;" src="./siderbar.png">
+					</section>
+				</ul>
+				<h3>Themes</h3>
+				<ul>
+					<section id="Day">
+						<li>Light Mode</li>
+						<img class="day" style="width: 30px;" src="./daylight.png">
+					</section>
+					<br>
+					<section id="Dark">
+						<li>Dark Mode</li>
+						<img class="dark"  style="width: 30px;" src="./dark.png">
+					<section>
+				</ul>
+			</ul>
+		</header>
 	</body>
-	<script src="options.js"></script>
+	<!-- Link to javascript document -->
+	<script src="scripts.js"></script>
 </html>
