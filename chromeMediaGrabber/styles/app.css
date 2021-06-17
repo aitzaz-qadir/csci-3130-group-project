@@ -1,5 +1,11 @@
 /* Wangwenzan Zhou's CSS File */
 
+* {
+	font-family: 'Open Sans', sans-serif;
+	background-color: lightblue;
+	width: 500px;
+}
+
 .photo {
 	width: 80px;
 }
@@ -54,7 +60,7 @@ h2 {
 	font-weight: bold;
 }
 
-#no-video-found {
+#vidfind {
 	font-size: 1.4rem;
 	padding: .2rem;
 	text-align: center;
