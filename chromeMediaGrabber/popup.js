@@ -1,11 +1,16 @@
-// // Finding videos code
-// arrList = document.getElementById("vidfind");
+// Storing the video division into a variable
+arrList = document.getElementById("vidfind");
+// Storing the first blob from array as string
+blob = srcsArray[0]
 
-// if (srcsArray.length == 0) {
-// 	console.log("Array is empty.");
-// 	arrList.innerHTML = "No Videos Availiable";
-// }
-// else {
-// 	console.log("Array has blobs.");
-// 	arrList.innerHTML = srcsArray[0];
-// }
+
+if (srcsArray.length > 0) {
+	console.log(blob)
+	arrList = document.getElementById("vidfind");
+	arrList.innerHTML = blob;
+}
+else {
+	console.log("blob")
+	arrList = document.getElementById("vidfind");
+	arrList.innerHTML = "blob" ;
+}
