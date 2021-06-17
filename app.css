@@ -1,0 +1,64 @@
+
+
+.photo{
+    width: 80px;
+    
+}
+.photo2{
+	width: 50px;
+}
+.dark-mode{
+	background-color: rgb(63, 59, 61);
+	color: rgb(236, 223, 223);
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#header h2{
+	font-size: 1.5rem;
+    background-size: 1.5rem 1.8rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header .setting-btn {
+    width: 8rem;
+    height: 1.1rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 1rem;
+    outline: none;
+    font-family: 'Lato Bold', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 0;
+    transition: all .2s ease-in-out;
+    color: #4c4952;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#no-video-found {
+    font-size: 1.4rem;
+    padding: .2rem;
+    text-align: center;
+}
+body {
+    width: 45rem;
+    min-height: 24rem;
+    padding: 1rem 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
