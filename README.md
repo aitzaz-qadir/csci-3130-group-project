@@ -105,3 +105,5 @@ ASCII Art Tiger
      .,'   ''::     :W:     :WWWWW.  .,::::''<br />
   ,'        ''','',',','','''WWWWW::::''<br />
    ':,,,,,,,':  :  : : :  :  :WWWW'''<br />
+   
+   UPDATE - Cat looks like Ostrich, fix in Iteration 2
