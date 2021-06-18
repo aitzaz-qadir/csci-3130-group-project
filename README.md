@@ -1,4 +1,4 @@
-# CSCI 3130 Group Project
+# CSCI-3130 Group Project
 
 This is the main repository for the CSCI 3130 group project (Summer 2021).
 
