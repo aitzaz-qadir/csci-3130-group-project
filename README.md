@@ -27,5 +27,5 @@ Notable features of an Azure Board:
 5.
 
 ## draw.io ##
-NB - Preferably use draw.io for design features rather than local programs for
-    sake of ease
+NB - Preferably use draw.io for simple design docs so they can be easily shared
+    on a repository
