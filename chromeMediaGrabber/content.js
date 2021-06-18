@@ -9,9 +9,9 @@ console.log(srcsArray)
 
 // Function that extracts blob urls from the website visited
 function vid_find() {
-	var vids = document.getElementsByTagName("video");
+	var vidList = document.getElementsByTagName("video");
 	var vidSrcs = [];
-	for (var i = 0; i < vids.length; i++) {
+	for (var i = 0; i < vidList.length; i++) {
 		vidSrcs.push(vids[i].src);
 	}
 

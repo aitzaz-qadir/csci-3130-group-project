@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Start of HTML Document -->
 <html lang="en">
 	<head>
 		<!-- Metadata -->
@@ -7,41 +8,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Link to CSS -->
 		<link rel="stylesheet" href="/styles/main.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 		<!-- Title -->
 		<title>Setting page</title>
 	</head>
+	<!-- Body of Options page -->
 	<body>
 		<main id="container">
 			<div id="Setting">
-				<img class="setting" style="width: 60px;" src="img/setting.png" alt="picture">
+				<a href="/popup.html">
+					<img class="setting" style="width: 60px;" src="img/setting.png" alt="picture">
+				</a>
 				<h2>Settings</h2>
 			</div>
-			<ul>
+			<div id="options-list">
 				<h3>Layout</h3>
 				<ul>
-					<section id="Popup">
-					<li>Pop-up mode</li>
-					<img class="popup" style="width: 30px;" src="img/popup.jpeg">
-					</section>
+					<li id="Popup">
+						<img class="icon" src="img/popup.jpeg">
+						<p>Pop-up mode</p>
+					</li>
 					<br>
-					<section id="Siderbar">
-					<li>Siderbar mode</li>
-					<img class="siderbar" style="width: 30px;" src="img/siderbar.png">
-					</section>
+					<li id="Siderbar">
+						<img class="icon" src="img/siderbar.png">
+						<p>Siderbar mode</p>
+					</li>
 				</ul>
 				<h3>Themes</h3>
 				<ul>
-					<section id="Day">
-					<li>Light Mode</li>
-					<img class="day" style="width: 30px;" src="img/daylight.png">
-					</section>
+					<li id="Day">
+						<img class="icon" src="img/daylight.png">
+						<p>Light Mode</p>
+					</li>
 					<br>
-					<section id="Dark">
-					<li>Dark Mode</li>
-					<img class="dark" style="width: 30px;" src="img/dark.png">
-					<section>
+					<li id="Dark">
+						<img class="icon" src="img/dark.png">
+						<p onclick="dark()">Dark Mode</p>
+					</li>
 				</ul>
-			</ul>
+			</div>
 		</main>
 		<!-- Link to javascript document -->
 		<script src="scripts.js"></script>

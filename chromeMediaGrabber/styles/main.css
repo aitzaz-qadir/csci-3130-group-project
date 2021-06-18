@@ -7,9 +7,19 @@
 	font-family: 'Titillium Web', sans-serif;
 }
 
+h2 {
+	font-size:x-large;
+	padding-right: 20%;
+}
+
 h3 {
 	display: -webkit-flex;
 	display: inline-flex;
+	font-size: large;
+}
+
+p {
+	font-size:1.3em;
 }
 
 #container {
@@ -17,38 +27,28 @@ h3 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
+	text-align: left;
 }
 
 #Setting {
 	display: flex;
+	margin-top: 10%;
+	flex-direction: row;
+	justify-content: left;
 }
 
 .li {
 	display: inline-block;
 }
 
-.popup {
+.icon {
 	width: 60px;
 	float: right;
 	margin-top: -20px;
 }
 
-.siderbar {
-	width: 60px;
-	float: right;
-	margin-top: -20px;
-}
-
-.day {
-	width: 60px;
-	float: right;
-	margin-top: -20px;
-}
-
-.dark {
-	width: 60px;
-	float: right;
-	margin-top: -20px;
+.setting:hover {
+	transform: rotate(70deg);
 }
 
 #Popup {
@@ -73,4 +73,14 @@ h3 {
 	border: white solid 1px;
 	display: left;
 	align-items: center;
+}
+
+.dark-mode {
+	background-color: rgb(37, 37, 37);
+	color: white;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
 }
