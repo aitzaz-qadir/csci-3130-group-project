@@ -16,11 +16,12 @@ signup and login <br />
 ## GitLab repository:
 > https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
 
-## NOTICE
+# NOTICES
  
+##Purpose of README.md
 This README file is for team members to document processes or work items 
 that caused difficulties in order to provide a well documented guide for
-programmers who may later want to use or modify this code 
+programmers who may later want to use or modify this code.
 
 ## Draw.io
 NB - Preferably use draw.io for simple design docs so they can be easily 
