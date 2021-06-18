@@ -1,9 +1,9 @@
 # **CSCI 3130 - Group Project - Group 13**
 
-This is the main repository for the CSCI 3130 group project (Summer 2021).<br /> 
-We will be working on creating a functional Google Chrome Extension that <br />
-allows users to scrape websites for media content and download files to <br />
-their local device. As extended functionality, we intend on including a <br />
+This is the main repository for the CSCI 3130 group project (Summer 2021). 
+We will be working on creating a functional Google Chrome Extension that 
+allows users to scrape websites for media content and download files to 
+their local device. As extended functionality, we intend on including a 
 signup and login <br />
 
 ## Group 13 Members:
@@ -18,33 +18,33 @@ signup and login <br />
 
 ## NOTICE
  
-This README file is for team members to document processes or work items <br />
-that caused difficulties in order to provide a well documented guide for <br />
-programmers who may later want to use or modify this code <br />
+This README file is for team members to document processes or work items 
+that caused difficulties in order to provide a well documented guide for
+programmers who may later want to use or modify this code 
 
 ## Draw.io
-NB - Preferably use draw.io for simple design docs so they can be easily <br />
-shared on a repository <br />
+NB - Preferably use draw.io for simple design docs so they can be easily 
+shared on a repository 
 
 ## How to set up a Chrome Extension
-src: https://developer.chrome.com/docs/extensions/mv3/getstarted/
+src: https://developer.chrome.com/docs/extensions/mv3/getstarted/ <br />
 
--Provides boilerplate code that allows for a basic setup of a Google <br />
+-Provides boilerplate code that allows for a basic setup of a Google 
 Chrome extension
 
 ## Blob URL
 
-The extraction of a blob URL from videos being visited by the browser <br />
-works by using the function vid_find() in content.js, it selects all the <br />
-video tags in the document and pushes their sources into an array of all <br />
-the video sources. Usually it only initiates on the video that is <br />
-currently being accessed. We believe that the extraction of the blob <br />
-URLs will be crucial for implementing the downloading functionality in <br />
+The extraction of a blob URL from videos being visited by the browser
+works by using the function vid_find() in content.js, it selects all the
+video tags in the document and pushes their sources into an array of all
+the video sources. Usually it only initiates on the video that is 
+currently being accessed. We believe that the extraction of the blob
+URLs will be crucial for implementing the downloading functionality in
 the 2nd iteration. 
 
 ## Azure Board
 
-
+We have not written any documention on this yet, sorry.
 
 ### References
 
