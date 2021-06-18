@@ -1,22 +1,31 @@
 <!DOCTYPE html>
+<!-- Start of HTML Document -->
 <html lang="en">
+	<!-- Header of Document. -->
 	<head>
 		<!-- Metadata -->
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Link to CSS -->
+		<!-- Link to CSS & Font -->
 		<link rel="stylesheet" href="/styles/app.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+		<!-- Title -->
 		<title>Document</title>
 	</head>
+	<!-- Main Body -->
 	<body>
-		<header id="header">
+		<!-- Header of  extension -->
+		<div id="main">
 			<img class="logo" src="img/logo128.png" alt="logo">
 			<h2 id="title-text">Welcome to Media Grabber</h2>
 			<h3 id="subtitle-text">Download any video from any website!</h3>
-			<button class="btn"><img class="photo2" src="img/setting.png" alt="picture2"></button>
+			<a href="/options.html">
+				<button class="btn"><img class="photo2" src="img/setting.png" alt="picture2"></button>
+			</a>
 			<!-- <button class="setting-btn"><img class="photo2" src="./setting.png" alt="picture2">setting</button> -->
-		</header>
+		</div>
 		<div id="vidfind" class="visible-block" styles="display: block;"></div>
 		<script src="popup.js"></script>
 	</body>
