@@ -16,10 +16,12 @@ h3 {
 	display: -webkit-flex;
 	display: inline-flex;
 	font-size: large;
+	margin-left: 11%;
 }
 
 p {
 	font-size:1.3em;
+	
 }
 
 #container {
@@ -57,7 +59,7 @@ p {
 	align-items: center;
 }
 
-#Siderbar {
+#Sidebar {
 	border:white solid 1px;
 	display: left;
 	align-items: center;
