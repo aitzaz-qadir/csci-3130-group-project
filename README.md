@@ -1,13 +1,16 @@
-# CSCI-3130 Group Project
+# **CSCI 3130 - Group Project - Group 13**
 
-This is the main repository for the CSCI 3130 group project (Summer 2021).
+This is the main repository for the CSCI 3130 group project (Summer 2021). 
+We will be working on creating a functional Google Chrome Extension that allows
+users to scrape websites for media content and download files to their local 
+device. As extended functionality, we intend on including a signup and login
 
 ## Group 13 Members:
-- Brynn Haley: B00851599 
-- James McLean: B00509771 
-- Emma Mensah: B00834434 
-- Aitzaz Qadir Khowaja: B00853169 
-- Wangwenzan Zhou: B00827960 
+**Brynn Haley: B00851599**
+**James McLean: B00509771**
+**Emma Mensah: B00834434**
+**Aitzaz Qadir Khowaja: B00853169**
+**Wangwenzan Zhou: B00827960**
 
 ## GitLab repository:
 > https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
@@ -30,15 +33,15 @@ extension
 
 ## Blob URL
 
-The extraction of a blob URL from videos being visited by the browser works by using the function vid_find() in content.js, it selects all the video tags in the document and pushes their sources into an array of all the video sources. Usually it only initiates on the video that is currently being accessed. We believe that the extraction of the blob URLs will be crucial for implementing the downloading functionality in the 2nd iteration.
+The extraction of a blob URL from videos being visited by the browser works by 
+using the function vid_find() in content.js, it selects all the video tags in 
+the document and pushes their sources into an array of all the video sources. 
+Usually it only initiates on the video that is currently being accessed. 
+We believe that the extraction of the blob URLs will be crucial for 
+implementing the downloading functionality in the 2nd iteration.
 
 ## Azure Board
-Notable features of an Azure Board:
-1.
-2.
-3.
-4.
-5.
+
 
 
 ## References
@@ -65,7 +68,7 @@ Icons from Google Material Icons
 
  
  
- ## Additional Cat ##
+## Additional Cat
  
  
 ASCII Art Tiger
