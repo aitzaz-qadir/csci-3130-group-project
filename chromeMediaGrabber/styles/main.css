@@ -1,8 +1,22 @@
-/* Allens main.css */
+/* CSS for the settings page */
+
+* {
+	width: 350px;
+	text-align: center;
+	transition-duration: 0.2s;
+	font-family: 'Titillium Web', sans-serif;
+}
+
 h3 {
-	border: black solid 1px;
 	display: -webkit-flex;
 	display: inline-flex;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #Setting {

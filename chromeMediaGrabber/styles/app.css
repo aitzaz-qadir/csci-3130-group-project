@@ -1,12 +1,15 @@
-/* Wangwenzan Zhou's CSS File */
+/* CSS File for Extension */
 
 * {
-	font-family: 'Open Sans', sans-serif;
-	width: 400px;
+	width: 350px;
+	text-align: center;
+	transition-duration: 0.2s;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .logo {
-	width: 128px;
+	width: 100px;
+	height: 125px;
 }
 
 .photo2 {
@@ -14,60 +17,73 @@
 }
 
 .dark-mode {
-	background-color: rgb(63, 59, 61);
 	color: rgb(236, 223, 223);
+	background-color: rgb(63, 59, 61);
 }
 
-#header {
+#main {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-#header h2 {
+#main h2 {
 	font-size: 1.5rem;
+	background-repeat: no-repeat;
 	background-size: 1.5rem 1.8rem;
 	background-position: left center;
-	background-repeat: no-repeat;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	/* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-#header .setting-btn {
+#main .setting-btn {
 	width: 8rem;
-	height: 1.1rem;
-	border: 1px solid #fff;
-	background-color: transparent;
-	border-radius: 1rem;
 	outline: none;
-	font-family: 'Lato Bold', sans-serif;
+	line-height: 0;
+	height: 1.1rem;
 	font-weight: 400;
+	color: #4c4952;
 	font-size: 1.5rem;
 	text-align: center;
-	line-height: 0;
+	border-radius: 1rem;
+	border: 1px solid #fff;
+	background-color: transparent;
 	transition: all .2s ease-in-out;
-	color: #4c4952;
+	/* font-family: 'Lato Bold', sans-serif; */
+}
+
+.btn {
+	width: 75px;
+	height: 75px;
+	margin-top: 10%;
+	border-radius: 50%;
+	background-color: #ec372a;
+}
+
+.btn:hover {
+	transform: rotate(70deg);
 }
 
 h2 {
 	display: block;
 	font-size: 1.5em;
-	margin-block-start: 0.83em;
+	font-weight: bold;
+	margin-inline-end: 0px;
 	margin-block-end: 0.83em;
 	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	font-weight: bold;
+	margin-block-start: 0.83em;
+	
 }
 
 #vidfind {
-	font-size: 1.4rem;
 	padding: .2rem;
 	text-align: center;
+	font-size: 1.4rem;
 }
 
 body {
 	width: 45rem;
-	min-height: 24rem;
 	padding: 1rem 0;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	min-height: 24rem;
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
