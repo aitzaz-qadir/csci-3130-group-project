@@ -1,6 +1,16 @@
-# CSCI 3130 Group Project - Test Branch
+# CSCI 3130 Group Project
 
 This is the main repository for the CSCI 3130 group project (Summer 2021).
+
+## Group 13 Members: ##
+Brynn Haley: B00851599 
+James McLean: B00509771 
+Emma Mensah: B00834434 
+Aitzaz Khowaja: B00853169 
+Wangwenzan Zhou: B00827960 
+
+## GitLab repository: ## 
+https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
 
 ## NOTICE ##
 
