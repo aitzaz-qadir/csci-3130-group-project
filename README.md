@@ -2,37 +2,37 @@
 
 This is the main repository for the CSCI 3130 group project (Summer 2021).
 
-## Group 13 Members: ##
-Brynn Haley: B00851599 
-James McLean: B00509771 
-Emma Mensah: B00834434 
-Aitzaz Khowaja: B00853169 
-Wangwenzan Zhou: B00827960 
+## Group 13 Members:
+- Brynn Haley: B00851599 
+- James McLean: B00509771 
+- Emma Mensah: B00834434 
+- Aitzaz Qadir Khowaja: B00853169 
+- Wangwenzan Zhou: B00827960 
 
-## GitLab repository: ## 
-https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
+## GitLab repository:
+> https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
 
-## NOTICE ##
+## NOTICE
 
 This README file is for team members to document processes or work items
 that caused difficulties in order to provide a well documented guide for
 programmers who may later want to use or modify this code
 
-## draw.io ##
+## Draw.io
 NB - Preferably use draw.io for simple design docs so they can be easily shared
     on a repository
 
-## How to set up a Chrome Extension ##
+## How to set up a Chrome Extension
 src: https://developer.chrome.com/docs/extensions/mv3/getstarted/
 
 -Provides boilerplate code that allows for a basic setup of a Google Chrome
 extension
 
-## Blob URL ##
+## Blob URL
 
-Aitzaz - Explain Process
+The extraction of a blob URL from videos being visited by the browser works by using the function vid_find() in content.js, it selects all the video tags in the document and pushes their sources into an array of all the video sources. Usually it only initiates on the video that is currently being accessed. We believe that the extraction of the blob URLs will be crucial for implementing the downloading functionality in the 2nd iteration.
 
-## Azure Board ##
+## Azure Board
 Notable features of an Azure Board:
 1.
 2.
@@ -41,7 +41,7 @@ Notable features of an Azure Board:
 5.
 
 
-## References ##
+## References
 10.0: References  
 
 “Create an Extension Tutorial Part 1”. Microsoft Docs. Microsoft.com. Published January 10th 2021. URL: https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension  
