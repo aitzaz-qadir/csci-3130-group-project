@@ -12,10 +12,10 @@
 	"action": {
 		"default_popup": "popup.html",
 		"default_icon": {
-			"16": "/img/logo16.png",
-			"32": "/img/logo32.png",
-			"48": "/img/logo48.png",
-			"128":"/img/logo128.png"
+			"16": "/img/chromeMediaGrabberLogo.png",
+			"32": "/img/chromeMediaGrabberLogo.png",
+			"48": "/img/chromeMediaGrabberLogo.png",
+			"128": "/img/chromeMediaGrabberLogo.png"
 		}
 	},
 
@@ -29,10 +29,10 @@
 	],
 
 	"icons": {
-		"16": "/img/logo16.png",
-		"32": "/img/logo32.png",
-		"48": "/img/logo48.png",
-		"128":"/img/logo128.png"
+		"16": "/img/chromeMediaGrabberLogo.png",
+		"32": "/img/chromeMediaGrabberLogo.png",
+		"48": "/img/chromeMediaGrabberLogo.png",
+		"128": "/img/chromeMediaGrabberLogo.png"
 	},
 
 	"options_ui": {
