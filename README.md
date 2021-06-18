@@ -18,6 +18,10 @@ This README file is for team members to document processes or work items
 that caused difficulties in order to provide a well documented guide for
 programmers who may later want to use or modify this code
 
+## draw.io ##
+NB - Preferably use draw.io for simple design docs so they can be easily shared
+    on a repository
+
 ## How to set up a Chrome Extension ##
 src: https://developer.chrome.com/docs/extensions/mv3/getstarted/
 
@@ -36,10 +40,7 @@ Notable features of an Azure Board:
 4.
 5.
 
-## draw.io ##
-NB - Preferably use draw.io for simple design docs so they can be easily shared
-    on a repository
-    
+
 ## References ##
 10.0: References  
 
