@@ -6,14 +6,14 @@ allows users to scrape websites for media content and download files to
 their local device. As extended functionality, we intend on including a 
 signup and login <br />
 
-## Group 13 Members:
-**Brynn Haley: B00851599** <br />
-**James McLean: B00509771** <br />
-**Emma Mensah: B00834434** <br />
-**Aitzaz Qadir Khowaja: B00853169** <br />
-**Wangwenzan Zhou: B00827960** <br />
+# Group 13 Members:
+<p>**Brynn Haley: B00851599**</p>
+<p>**James McLean: B00509771**</p>
+<p>**Emma Mensah: B00834434**</p>
+<p>**Aitzaz Qadir Khowaja: B00853169**</p>
+<p>**Wangwenzan Zhou: B00827960**</p> 
 
-## GitLab repository:
+# GitLab repository:
 > https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
 
 # NOTICES
@@ -25,7 +25,9 @@ programmers who may later want to use or modify this code.
 
 ## Draw.io
 NB - Preferably use draw.io for simple design docs so they can be easily 
-shared on a repository 
+shared on a repository  
+
+# Information About Project Setup
 
 ## How to set up a Chrome Extension
 src: https://developer.chrome.com/docs/extensions/mv3/getstarted/ <br />
@@ -45,37 +47,41 @@ the 2nd iteration.
 
 ## Azure Board
 
-We have not written any documention on this yet, sorry.
+<p>Azure is a Microsoft project management and devops platform that allows for 
+quick and efficient communication between team members, and provides a 
+centralized interface for workflow, version control, process automation, and has
+a number of useful tools and extensions to aid different types of stakeholders
+in successfully managing a project. </p>
 
-### References
+# References
 
-“Create an Extension Tutorial Part 1”. Microsoft Docs. Microsoft.com. Published January 10th 2021. <br />
+1. “Create an Extension Tutorial Part 1”. Microsoft Docs. Microsoft.com. Published January 10th 2021. <br />
 URL: https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension  <br />
 
-“Getting Started”. Chrome Developers. Google Inc. Published February 28th 2014. <br />
+2. “Getting Started”. Chrome Developers. Google Inc. Published February 28th 2014. <br />
 URL: https://developer.chrome.com/docs/extensions/mv3/getstarted/ <br />
 
-“What are Chrome Extensions?”. Chrome Developers. Google Inc. Overview Published February 21st 2013. <br />
+3. “What are Chrome Extensions?”. Chrome Developers. Google Inc. Overview Published February 21st 2013. <br />
 URL: https://developer.chrome.com/docs/extensions/mv3/overview/  <br />
 
-“JavaScript HTML DOM Document”. W3Schools. 2021. <br />
+4. “JavaScript HTML DOM Document”. W3Schools. 2021. <br />
 URL: https://www.w3schools.com/js/js_htmldom_document.asp <br />
 
-“Download a File Using JavaScript”. DelftStack. Published March 21st 2021. <br />
+5. “Download a File Using JavaScript”. DelftStack. Published March 21st 2021. <br />
 URL: https://www.delftstack.com/howto/javascript/javascript-download/ <br />
 
-“popup.js”. The Chromium Authors, 2012. Updated February 5th 2021. <br />
+6. “popup.js”. The Chromium Authors, 2012. Updated February 5th 2021. <br />
 URL: https://github.com/GoogleChrome/chrome-extensions-samples/blob/main/mv2-archive/api/downloads/download_links/popup.js <br />
 
-Draw.io was used for creating logos. URL: https://app.diagrams.net/ <br />
+7. Draw.io was used for creating logos. URL: https://app.diagrams.net/ <br />
 
-Google Material Theme  <br />
+8. Google Material Theme  <br />
 
-Icons from Google Material Icons  <br />
+9. Icons from Google Material Icons  <br />
 
  
  
-#### Additional Cat
+# Additional Cat
  
  
 ASCII Art Tiger
