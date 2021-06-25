@@ -7,11 +7,11 @@ their local device. As extended functionality, we intend on including a
 signup and login <br />
 
 # Group 13 Members:
-<p>** Brynn Haley: B00851599 **</p>
-<p>** James McLean: B00509771 **</p>
-<p>** Emma Mensah: B00834434 **</p>
-<p>** Aitzaz Qadir Khowaja: B00853169 **</p>
-<p>** Wangwenzan Zhou: B00827960 **</p> 
+<p>__Brynn Haley: B00851599__</p>
+<p>__James McLean: B00509771__</p>
+<p>__Emma Mensah: B00834434__</p>
+<p_>__Aitzaz Qadir Khowaja: B00853169__</p>
+<p>__Wangwenzan Zhou: B00827960__</p> 
 
 # GitLab repository:
 > https://git.cs.dal.ca/bhaley/csci-3130-group-project.git 
