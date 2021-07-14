@@ -5,12 +5,12 @@
 	"manifest_version": 3,
 	
 	"background": {
-		"service_worker": "background.js"
+		"service_worker": "/scripts/background.js"
 	},
 
 	"permissions": ["storage", "activeTab", "scripting", "downloads"],
 	"action": {
-		"default_popup": "popup.html",
+		"default_popup": "/html/popup.html",
 		"default_icon": {
 			"16": "/img/chromeMediaGrabberLogo.png",
 			"32": "/img/chromeMediaGrabberLogo.png",
@@ -24,7 +24,7 @@
 			"matches": [
 				"<all_urls>"
 			],
-			"js": ["content.js", "popup.js"]
+			"js": ["/scripts/content.js", "/scripts/popup.js"]
 		}
 	],
 
@@ -37,6 +37,6 @@
 
 	"options_ui": {
 		"open_in_tab": true,
-		"page": "options.html"
+		"page": "/html/options.html"
 	}
 }
