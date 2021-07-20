@@ -1,22 +1,15 @@
 <!DOCTYPE html>
-<!-- Start of HTML Document -->
 <html lang="en">
-	<!-- Header of Document. -->
-	<head>
-		<!-- Metadata -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Link to CSS & Font -->
-		<link rel="stylesheet" href="/styles/app.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-		<!-- Title -->
-		<title>Document</title>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<!-- Links -->
+	<link rel="stylesheet" href="/styles/app.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+	<title>Media Grabber</title>
+</head>
 	<!-- Main Body -->
 	<body>
-		<!-- Header of  extension -->
 		<div id="main">
 			<img class="logo" src="/img/chromeMediaGrabberLogo.png" alt="logo">
 			<h2 id="title-text">Welcome to Media Grabber</h2>
@@ -24,9 +17,10 @@
 			<a href="/html/options.html">
 				<button class="btn"><img class="photo2" src="/img/setting.png" alt="picture2"></button>
 			</a>
-			<!-- <button class="setting-btn"><img class="photo2" src="./setting.png" alt="picture2">setting</button> -->
+			<input class="input-url" placeholder="http://www.youtube.com/watch?v=90AiXO1pAiA"/>
+			<button class="download-btn">Download</button>
 		</div>
 		<div id="vidfind" class="visible-block" styles="display: block;"></div>
-		<script src="/scripts/popup.js"></script>
+		<script type="module" src="/scripts/popup.js"></script>
 	</body>
 </html>
