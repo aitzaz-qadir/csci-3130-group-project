@@ -8,7 +8,15 @@
 		"service_worker": "background.js"
 	},
 
-	"permissions": ["storage", "activeTab", "scripting", "downloads"],
+	"permissions": [
+		"storage",
+		"activeTab",
+		"scripting",
+		"downloads",
+		"contextMenus"
+
+	],
+
 	"action": {
 		"default_popup": "/html/popup.html",
 		"default_icon": {
