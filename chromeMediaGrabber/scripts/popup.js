@@ -5,7 +5,7 @@ var downloadBtn = document.querySelector('.download-btn');
 var input = document.querySelector('.input-url');
 
 // Add event listener to download button to initiate download 
-downloadBtn.addEventListener('click', initDownload);
+downloadBtn.addEventListener('click', download);
 
 function download(url, fileName) {
     var url = input.value            // get url from input field
@@ -22,15 +22,4 @@ function download(url, fileName) {
     if ( debug ) {
         alert("download complete.");
     }
-}
-
-// Initializes download url and specifications
-function initDownload() {
-    if (debug) {
-        console.log("Download initialized with url: " + url);
-    }
-    var url = input.value;
-    var fileName = "media-grabber";
-
-    download(url, fileName);
 }
