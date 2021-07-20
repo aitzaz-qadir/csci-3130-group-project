@@ -9,7 +9,7 @@ downloadBtn.addEventListener('click', download);
 
 function download(url, fileName) {
     var url = input.value            // get url from input field
-    var fileName = "media-grabber";  // get file name from user default
+    var fileName = "chromeMedia";    // get file name from user default
 
     // Create an invisible element whose href is the download link
     var a = document.createElement("a");
@@ -17,9 +17,14 @@ function download(url, fileName) {
     a.setAttribute("download", fileName);
 
     // simulate clicking the invisible element to download its link
-    a.click();   
+    try {
+        a.click();
+    }
+    catch (err) {
+        alert(err);
+    }
 
     if ( debug ) {
-        alert("download complete.");
+        alert("download should now be complete.");
     }
 }
