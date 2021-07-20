@@ -1,3 +1,8 @@
+//import axios from 'axios'
+import youtube-dl as ydl from 'youtube-dl'
+//const youtubedl = require('youtube-dl')
+//import * as ydl from /modules/youtubedl.js
+
 // Get DOM elements from popup.html
 var downloadBtn = document.querySelector('.download-btn');
 var input = document.querySelector('.input-url');
