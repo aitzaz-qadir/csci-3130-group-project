@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<!-- Links -->
+	<!-- Title -->
+	<title>Media Grabber</title>
+	<!-- Style Links -->
 	<link rel="stylesheet" href="/styles/popup.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-	<title>Media Grabber</title>
 </head>
-	<!-- Main Body -->
-	<body>
-		<div id="main">
-			<img class="logo" src="/img/chromeMediaGrabberLogo.png" alt="logo">
-			<h2 id="title-text">Welcome to Media Grabber</h2>
-			<h3 id="subtitle-text">Download any video from any website!</h3>
-			<a href="/html/options.html">
-				<button class="btn"><img class="photo2" src="/img/setting.png" alt="picture2"></button>
+
+<body>
+	<!-- Header -->
+	<header class="header">
+		<nav id="header-nav">
+			<a href="/html/history.html">
+				<img id="history-btn" src="/img/list.png" alt="View download history"/>
 			</a>
-			<input class="input-url" placeholder="http://www.youtube.com/watch?v=90AiXO1pAiA"/>
-			<button class="download-btn">Download</button>
+			<a href="/html/options.html">
+				<img id="settings-btn" src="/img/setting.png" alt="Settings" />
+			</a>
+		</nav>
+	</header>
+
+	<!-- Main -->
+	<main>
+		<!-- Logo and title text -->
+		<div id="welcome-logo">
+			<img id="logo" src="/img/chromeMediaGrabberLogo.png" alt="logo">
+			<h1 id="title-text">Welcome to Media Grabber</h1>
+			<h3 id="subtitle-text">Download media from any website!</h3>
 		</div>
-		<div id="vidfind" class="visible-block" styles="display: block;"></div>
-		<script type="module" src="/scripts/popup.js"></script>
-	</body>
+
+		<!-- Download controls -->
+		<div id="download-controls">
+			<input id="input-url" placeholder="http://www.youtube.com/watch?v=90AiXO1pAiA" />
+			<button id="download-btn">Download</button>
+		</div>
+
+	</main>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div id="copyright">&copy; 2021.</div>
+	</footer>
+
+</body>
 </html>
+
+<!-- Script -->
+<script type="module" src="/scripts/popup.js"></script>
