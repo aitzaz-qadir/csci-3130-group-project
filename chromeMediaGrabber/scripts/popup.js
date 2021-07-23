@@ -1,10 +1,10 @@
 var debug = true; // set to true to show debug messages
 
 // Get DOM elements from popup.html
-var downloadBtn = document.querySelector('.download-btn');
-var input = document.querySelector('.input-url');
+var downloadBtn = document.querySelector('#download-btn');
+var input = document.querySelector('#input-url');
 
-// Add event listener to download button to initiate download 
+// Add event listener to download button to initiate download  
 downloadBtn.addEventListener('click', download);
 
 function download(url, fileName) {
