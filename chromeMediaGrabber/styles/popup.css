@@ -86,3 +86,18 @@ body {
 	min-height: 24rem;
 	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
+
+/* Dark Mode Functionality */
+.dark-mode {
+	color: white;
+	background-color: rgb(37, 37, 37);
+	transition-duration: 0.1s;
+}
+
+.dark-mode .logo {
+	filter: invert(1);
+}
+
+.dark-mode .photo2 {
+	filter: invert(1);
+}
