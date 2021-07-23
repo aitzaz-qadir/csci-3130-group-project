@@ -1,5 +1,3 @@
-var debug = true; // set to true to show debug messages
-
 // Get DOM elements from popup.html
 var downloadBtn = document.querySelector('#download-btn');
 var input = document.querySelector('#input-url');
@@ -10,13 +8,9 @@ downloadBtn.addEventListener('click', download);
 function download(url, fileName) {
     var url = input.value            // get url from input field
 
-    chrome.downloads.download({ url: url },
+    chrome.downloads.download({ url: url, saveAs: true },
         function (id) {
         });
-
-    if ( debug ) {
-        alert("Your download should now be complete!");
-    }
 }
 
 var main = document.body;
