@@ -15,7 +15,7 @@ function download(url, fileName) {
         });
 
     if ( debug ) {
-        alert("download should now be complete.");
+        alert("Your download should now be complete!");
     }
 }
 
