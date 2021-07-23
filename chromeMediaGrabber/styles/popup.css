@@ -49,9 +49,9 @@
 	transform: rotate(70deg);
 }
 
-/* Nudge back button on hover */
-#back-btn:hover {
-	transform: translateX(-5px);
+/* Subtly enlarge history button on hover */
+#history-btn:hover {
+	transform: scale(110%);
 }
 
 /* Download controls */
