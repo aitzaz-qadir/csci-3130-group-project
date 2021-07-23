@@ -36,3 +36,9 @@
 h2 {
     margin-top: 50px;
 }
+
+.dark-mode {
+	color: white;
+	background-color: rgb(37, 37, 37);
+	transition-duration: 0.1s;
+}

@@ -74,4 +74,16 @@
 	margin-top: 20px;
 }
 
+/* Dark Mode Functionality */
+.dark-mode {
+	color: white;
+	background-color: rgb(37, 37, 37);
+	transition-duration: 0.1s;
+}
+
+.dark-mode #logo {
+	filter: invert(1);
+}
+
+
 
