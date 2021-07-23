@@ -20,8 +20,7 @@ h3 {
 }
 
 p {
-	font-size:1.3em;
-	
+	font-size:1.4em;
 }
 
 #container {
@@ -32,11 +31,20 @@ p {
 	text-align: left;
 }
 
-#Setting {
+#settingHeader {
 	display: flex;
 	margin-top: 10%;
 	flex-direction: row;
 	justify-content: left;
+}
+
+.setting:hover {
+	transform: rotate(70deg);
+}
+
+li {
+	display: flex;
+	flex-direction: row;
 }
 
 .li {
@@ -49,40 +57,63 @@ p {
 	margin-top: -20px;
 }
 
-.setting:hover {
-	transform: rotate(70deg);
-}
-
-#Popup {
-	border: white solid 1px;
+#popup {
 	display: left;
 	align-items: center;
 }
 
-#Sidebar {
-	border:white solid 1px;
+#sidebar {
 	display: left;
 	align-items: center;
 }
 
-#Day {
-	border: white solid 1px;
+#sideText {
+	margin-left: 12px;
+}
+
+#dark {
 	display: left;
 	align-items: center;
 }
 
-#Dark {
-	border: white solid 1px;
-	display: left;
-	align-items: center;
+#darkBtn {
+	background-color: transparent;
+	outline:none;
+	border: none;
+	border-radius: 8px;
+	width: fit-content;
+	font-size:1.4em;
+	margin-left: 26%;
+	padding: 5%;
+	margin-bottom: 5%;
 }
 
+#darkBtn:hover {
+	cursor: pointer;
+	background-color: rgb(240, 240, 240);
+}
+
+/* Dark Mode Functionality */
 .dark-mode {
-	background-color: rgb(37, 37, 37);
 	color: white;
+	background-color: rgb(37, 37, 37);
+	transition-duration: 0.1s;
 }
 
-li {
-	display: flex;
-	flex-direction: row;
+.dark-mode #darkBtn {
+	color: white;
+	transition-duration: 0.1s;
+}
+
+.dark-mode #darkBtn:hover {
+	cursor: pointer;
+	background-color: rgb(51, 51, 51);
+}
+
+.dark-mode .icon {
+	filter: invert(1);
+}
+
+.dark-mode .setting {
+	filter: invert(1);
 }
