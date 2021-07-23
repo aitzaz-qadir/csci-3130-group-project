@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Metadata -->
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Links -->
-		<link rel="stylesheet" href="/styles/options.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-		<!-- Title -->
-		<title>Options</title>
-	</head>
-	<!-- Body -->
-	<body>
-		<main id="container">
-			<div id="Setting">
-				<a href="/html/popup.html">
-					<img class="setting" style="width: 60px;" src="/img/setting.png" alt="picture">
-				</a>
-				<h2>Settings</h2>
-			</div>
-			<div id="options-list">
-				<h3>Layout</h3>
-				<ul>
-					<li id="Popup">
-						<img class="icon" src="/img/toggle.png">
-						<p>Pop-up mode</p>
-					</li>
-					<br>
-					<li id="Sidebar">
-						<img class="icon" src="/img/list.png">
-						<p>Sidebar mode</p>
-					</li>
-				</ul>
-				<h3>Themes</h3>
-				<ul>
-					<li id="Day">
-						<img class="icon" src="/img/dark.png">
-						<p>Dark Mode</p>
-					</li>
-					<br>
-				</ul>
-			</div>
-		</main>
-		<!-- Link to javascript document -->
-		<script src="/scripts/theme.js"></script>
-	</body>
+
+<head>
+	<!-- Metadata -->
+	<meta charset="UTF-8">
+	<!-- Title -->
+	<title>Options</title>
+	<!-- Style Links -->
+	<link rel="stylesheet" href="/styles/options.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<!-- Body -->
+<body>
+	<!-- Header -->
+	<header class="header">
+		<nav id="header-nav">
+			<a href="/html/popup.html">
+				<img id="back-btn" src="/img/back.png" alt="Back to main page" />
+			</a>
+		</nav>
+	</header>
+
+	<!-- Main -->
+	<main class="main">
+
+		<div id="options-list">
+			<h2>Settings</h2>
+			<h3>Layout</h3>
+			<ul>
+				<li id="Popup">
+					<img class="icon" src="/img/toggle.png">
+					<p>Pop-up mode</p>
+				</li>
+				<br>
+				<li id="Sidebar">
+					<img class="icon" src="/img/list.png">
+					<p>Sidebar mode</p>
+				</li>
+			</ul>
+			<h3>Themes</h3>
+			<ul>
+				<li id="Day">
+					<img class="icon" src="/img/dark.png">
+					<p>Dark Mode</p>
+				</li>
+				<br>
+			</ul>
+		</div>
+	</main>
+
+	<!-- Link to javascript document -->
+	<script src="/scripts/theme.js"></script>
+</body>
 </html>

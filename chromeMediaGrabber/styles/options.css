@@ -1,10 +1,33 @@
 /* CSS for the settings page */
 
 * {
-	width: 350px;
-	text-align: center;
+	width: 400px;
 	transition-duration: 0.2s;
 	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+.header {
+	background-color: lightgray;
+	width: 400px;
+	height: 50px;
+	margin-left: -7px;
+	margin-top: -8px;
+	margin-bottom: 20px;
+	padding-top: 8px;
+}
+
+/* Back button */
+#back-btn {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 15px;
+}
+
+/* Nudge back button on hover */
+#back-btn:hover {
+	transform: translateX(-5px);
 }
 
 h2 {
